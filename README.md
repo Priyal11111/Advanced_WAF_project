@@ -99,7 +99,7 @@ Host: www.example.com
 
 **4. SQL Injection with UNION**
 ```
-GET /search?q=1' UNION SELECT username,password FROM users-- HTTP/1.1
+GET /search?q=1' UNION SELECT username, password FROM users-- HTTP/1.1
 Host: www.example.com
 ```
 
@@ -154,10 +154,7 @@ bash
 python app.py
 ```
 
-## License
 
-MIT License
-" > README.md
 
 ## Add and commit README
 git add README.md
